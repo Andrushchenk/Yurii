@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Aguin CG</title>
+</head>
+<body >
+
+    <svg style="display:none;">
+
+        <symbol id="facebook" viewBox="0 0 30 30">
+            <g>
+                <path d="M12,27V15H8v-4h4V8.852C12,4.785,13.981,3,17.361,3c1.619,0,2.475,0.12,2.88,0.175V7h-2.305C16.501,7,16,7.757,16,9.291V11h4.205l-0.571,4H16v12H12z"/>
+            </g>
+         </symbol>
+
+
+
+        <symbol id="vk" viewBox="0 0 48 48">
+            <g>
+                <path d="M45.763,35.202c-1.797-3.234-6.426-7.12-8.337-8.811c-0.523-0.463-0.579-1.264-0.103-1.776 c3.647-3.919,6.564-8.422,7.568-11.143C45.334,12.27,44.417,11,43.125,11l-3.753,0c-1.237,0-1.961,0.444-2.306,1.151 c-3.031,6.211-5.631,8.899-7.451,10.47c-1.019,0.88-2.608,0.151-2.608-1.188c0-2.58,0-5.915,0-8.28 c0-1.147-0.938-2.075-2.095-2.075L18.056,11c-0.863,0-1.356,0.977-0.838,1.662l1.132,1.625c0.426,0.563,0.656,1.248,0.656,1.951 L19,23.556c0,1.273-1.543,1.895-2.459,1.003c-3.099-3.018-5.788-9.181-6.756-12.128C9.505,11.578,8.706,11.002,7.8,11l-3.697-0.009 c-1.387,0-2.401,1.315-2.024,2.639c3.378,11.857,10.309,23.137,22.661,24.36c1.217,0.12,2.267-0.86,2.267-2.073l0-3.846 c0-1.103,0.865-2.051,1.977-2.079c0.039-0.001,0.078-0.001,0.117-0.001c3.267,0,6.926,4.755,8.206,6.979 c0.368,0.64,1.056,1.03,1.8,1.03l4.973,0C45.531,38,46.462,36.461,45.763,35.202z"/>
+            </g>
+        </symbol>
+
+        <symbol id="insta" viewBox="0 0 30 30">
+            <g>
+                <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"/>
+            </g>
+         </symbol>
+
+         <symbol id="telega" viewBox="0 0 50 50">
+            <g>
+                <path d="M46.137,6.552c-0.75-0.636-1.928-0.727-3.146-0.238l-0.002,0C41.708,6.828,6.728,21.832,5.304,22.445	c-0.259,0.09-2.521,0.934-2.288,2.814c0.208,1.695,2.026,2.397,2.248,2.478l8.893,3.045c0.59,1.964,2.765,9.21,3.246,10.758	c0.3,0.965,0.789,2.233,1.646,2.494c0.752,0.29,1.5,0.025,1.984-0.355l5.437-5.043l8.777,6.845l0.209,0.125	c0.596,0.264,1.167,0.396,1.712,0.396c0.421,0,0.825-0.079,1.211-0.237c1.315-0.54,1.841-1.793,1.896-1.935l6.556-34.077	C47.231,7.933,46.675,7.007,46.137,6.552z M22,32l-3,8l-3-10l23-17L22,32z"/>
+            </g>
+         </symbol>
+
+         <symbol id="behance"  viewBox="0 0 32 32">
+            <g>
+                <path d="M 1 6.75 L 1 25.25 L 9.9375 25.25 C 10.765625 25.25 16.46875 25.082031 16.46875 19.875 C 16.46875 16.621094 14.230469 15.515625 13.09375 15.1875 C 13.929688 14.792969 15.59375 13.855469 15.59375 11.34375 C 15.59375 9.945313 15.394531 6.75 9.6875 6.75 Z M 21.375 8.46875 L 21.375 10.15625 L 28.28125 10.15625 L 28.28125 8.46875 Z M 5.0625 9.90625 L 8.875 9.90625 C 9.234375 9.90625 11.65625 9.714844 11.65625 12.03125 C 11.65625 14.011719 9.90625 14.21875 9.1875 14.21875 L 5.0625 14.21875 Z M 25 11.6875 C 19.777344 11.6875 18.6875 16.222656 18.6875 18.1875 C 18.6875 24.019531 23.46875 24.6875 25 24.6875 C 29.128906 24.6875 30.300781 22.015625 30.78125 20.53125 L 27.78125 20.53125 C 27.664063 20.914063 26.789063 22.15625 25.125 22.15625 C 22.335938 22.15625 22.09375 19.976563 22.09375 19 L 30.96875 19 C 31.148438 15.625 29.671875 11.6875 25 11.6875 Z M 24.90625 14.21875 C 25.738281 14.21875 26.410156 14.460938 26.8125 14.90625 C 27.214844 15.355469 27.511719 16.011719 27.59375 16.875 L 22.09375 16.875 C 22.109375 16.636719 22.164063 16.363281 22.25 16.0625 C 22.335938 15.753906 22.46875 15.460938 22.6875 15.1875 C 22.90625 14.917969 23.210938 14.683594 23.5625 14.5 C 23.921875 14.3125 24.367188 14.21875 24.90625 14.21875 Z M 5.0625 17 L 9.46875 17 C 10.34375 17 12.40625 17.136719 12.40625 19.65625 C 12.40625 22.097656 9.808594 22.09375 9.40625 22.09375 L 5.0625 22.09375 Z"/>
+            </g>
+         </symbol>
+
+         <symbol id="pinterest"  viewBox="0 0 30 30">
+            <g>
+                <path d="M15,3C8.373,3,3,8.373,3,15c0,5.084,3.163,9.426,7.627,11.174c-0.105-0.949-0.2-2.406,0.042-3.442 c0.218-0.936,1.407-5.965,1.407-5.965s-0.359-0.719-0.359-1.781c0-1.669,0.967-2.914,2.171-2.914c1.024,0,1.518,0.769,1.518,1.69 c0,1.03-0.655,2.569-0.994,3.995c-0.283,1.195,0.599,2.169,1.777,2.169c2.133,0,3.772-2.249,3.772-5.495 c0-2.873-2.064-4.882-5.012-4.882c-3.414,0-5.418,2.561-5.418,5.208c0,1.031,0.397,2.137,0.893,2.739 c0.098,0.119,0.112,0.223,0.083,0.344c-0.091,0.379-0.293,1.194-0.333,1.361c-0.052,0.22-0.174,0.266-0.401,0.16 c-1.499-0.698-2.436-2.889-2.436-4.649c0-3.785,2.75-7.262,7.929-7.262c4.163,0,7.398,2.966,7.398,6.931 c0,4.136-2.608,7.464-6.227,7.464c-1.216,0-2.359-0.632-2.75-1.378c0,0-0.602,2.291-0.748,2.853 c-0.271,1.042-1.002,2.349-1.492,3.146C12.57,26.812,13.763,27,15,27c6.627,0,12-5.373,12-12S21.627,3,15,3z"/>
+            </g>
+         </symbol>
+
+
+
+    </svg>
+
+
+    <!-- HEADER -->
+
+
+
+
+    <!-- INTRO -->
+    <div class="mask">
+        <div class="loader"> </div>
+    </div>
+
+
+    <div class="intro scroll">
+        <div class="intro__inner">
+            <div class="intro__photo">
+
+                    <img class="intro__photo1 animation" src="img/inst.jpg">
+
+
+            </div><!-- INTRO__PHOTO -->
+            <div class="intro__text">
+                    <div class="intro__UPtitle  animation"  >
+                        Aguin CG
+                    </div>
+
+                    <div class="intro__profesiontitle animation "  >
+                        CG Artirs, Graphic designer, illustrator
+                    </div>
+                    <!-- LINKS -->
+
+            </div><!-- INTRO__TEXT -->
+            <div class="intro__bio animation">
+                Hi, my name is Maxim Ryzhiy, i am a CG artist with 6 years of experience in digital art, also studying to be a graphic designer.
+            </div>
+            <div class="media__link animation" >
+
+                <a class="social__item" href="pidor.html" target="_blank" >
+                    <svg class="social__icon">
+                        <use xlink:href="#telega"></use>
+                    </svg>
+                </a>
+
+                <a class="social__item" href="https://instagram.com/aguincg?utm_medium=copy_link" target="_blank" >
+                    <svg class="social__icon">
+                        <use xlink:href="#insta"></use>
+                    </svg>
+                </a>
+
+                <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#behance"></use>
+                    </svg>
+                </a>
+
+                <a class="social__item" href="#" target="_blank">
+                    <svg class="social__icon">
+                        <use xlink:href="#pinterest"></use>
+                    </svg>
+                </a>
+
+
+            </div>   <!-- LINKS -->
+        </div><!-- INTRO__INNER -->
+    </div><!-- INTRO -->
+
+        <div class="section scroll ">
+            <div class="section__inner">
+                <div class="section__text">
+
+                   <div class="section__text__inner">
+                    <div class="text__galery">
+                        Galery
+                    </div>
+                    <div class="text__about">
+                        Hi, my name is Maxim Ryzhiy, i am a CG artist with 6 years of experience in digital art, also studying to be a graphic designer.
+                    </div>
+                   </div>
+
+                </div>
+
+            <div class="section__slaider">
+            <div class="one">
+                <div class="blocckk">
+                    <div id="slaider">
+                        <div class="block" >
+                            <img class="section__img"  src=img/Frame/1.png>
+                        </div>
+                        <div class="block" >
+                            <img class="section__img"  src=img/Frame/2.png>
+                        </div>
+                        <div class="block" >
+                            <img class="section__img"  src=img/Frame/3.png>
+                        </div>
+                        <div class="block" >
+                            <img class="section__img"  src=img/Frame/4.png>
+                        </div>
+                        <div class="block" >
+                            <img class="section__img"  src=img/Frame/5.png>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <div class="section scroll ">
+
+    </div> -->
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="app.js"></script>
+
+
+
+</body>
+</html>
+
+
